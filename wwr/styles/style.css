@@ -1,0 +1,102 @@
+
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav a{
+    text-decoration: none;
+    text-align: center;
+    color: #78C5D7;
+}
+
+nav a:hover{
+    background-color: #78C5D7;
+    color: #134266;
+}
+
+#hero-msg h1, #hero-msg h4{
+    text-align: center;
+}
+
+#hero-img{
+    width: 100%;
+}
+
+.button-box{
+    text-align: center;
+}
+
+main section{
+    text-align: center;
+}
+
+#background{
+    height: 725px;
+    background-color: #bdb99d;
+}
+
+body{
+    background-color: #eeede7;
+}
+
+header{
+    background-color: #FCE172;
+}
+
+.book, .join{
+    text-decoration: none;
+    background-color: #78C5D7;
+    color:#134266;
+}
+
+.book:hover, .join:hover{
+    background-color: #134266;
+    color: #78C5D7;
+}
+
+.msg{
+    background-color: #bdb99d;
+}
+
+.msg h2{
+    color:black;
+}
+
+.msg p{
+    color: black;
+}
+
+footer{
+    background-color: #78C5D7;
+    color:#ecda90;
+}
+
+footer p{
+    font-size: 1.2em;
+}
+
+footer p a:hover{
+    text-decoration: underline;
+}
+
+footer a{
+    color: #134266;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: #FCE172;
+}
+
+.home-title{
+    color:black;
+}
+
+h4{
+    color:black;
+}
+
+.logo, .icon{
+    width: 80px;
+}
