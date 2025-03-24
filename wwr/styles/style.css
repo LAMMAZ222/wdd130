@@ -1,4 +1,7 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -8,6 +11,7 @@ nav a{
     text-decoration: none;
     text-align: center;
     color: #78C5D7;
+    padding: 35px;
 }
 
 nav a:hover{
@@ -18,9 +22,11 @@ nav a:hover{
 #hero-msg h1, #hero-msg h4{
     text-align: center;
 }
-
 #hero-img{
     width: 100%;
+}
+#hero{
+    text-align: center;
 }
 
 .button-box{
@@ -30,6 +36,9 @@ nav a:hover{
 main section{
     text-align: center;
 }
+main section img{
+    box-sizing: border-box;
+}
 
 #background{
     height: 725px;
@@ -38,6 +47,14 @@ main section{
 
 body{
     background-color: #eeede7;
+    font-family: "saira", "Times New Roman";
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    margin: 0;
 }
 
 header{
@@ -48,6 +65,10 @@ header{
     text-decoration: none;
     background-color: #78C5D7;
     color:#134266;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover{
@@ -57,19 +78,34 @@ header{
 
 .msg{
     background-color: #bdb99d;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2{
     color:black;
+    font-family:"Bebas Neue", sans-serif;
 }
 
 .msg p{
     color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer{
     background-color: #78C5D7;
     color:#ecda90;
+    padding: 25px 50px; 
+    margin-top: 200px;
+}
+
+.mountains{
+    padding: 30px 0;
+}
+
+footer .social img{
+    padding-top: 15px;
 }
 
 footer p{
@@ -91,6 +127,9 @@ footer a:hover{
 
 .home-title{
     color:black;
+    font-size: 2em;
+    font-family:"Bebas Neue", sans-serif;
+    margin-top: 10px;
 }
 
 h4{
@@ -99,4 +138,18 @@ h4{
 
 .logo, .icon{
     width: 80px;
+}
+.icon{
+    padding-top: 10px;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid #bdb99d;
+}
+
+#logo-link{
+    padding-top: 5px;
 }
