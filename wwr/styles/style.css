@@ -86,7 +86,7 @@ header{
     grid-template-columns: 150px auto;
 }
 
-.book, .join{
+.book, .join, .join-rivers{
     text-decoration: none;
     background-color: #78C5D7;
     color:#134266;
@@ -96,7 +96,15 @@ header{
     border-radius: 5px;
 }
 
-.book:hover, .join:hover{
+.join-rivers{
+    font-size: 48px;
+    margin: 100px;
+    grid-column: 2/4;
+    border: #134266 solid 20px;
+    box-sizing: border-box;
+}
+
+.book:hover, .join:hover, .join-rivers:hover{
     background-color: #134266;
     color: #78C5D7;
 }
@@ -155,6 +163,7 @@ footer a:hover{
     font-size: 3em;
     font-family:"Bebas Neue", sans-serif;
     margin-bottom: 0px;
+    color: #FCE172;
 }
 
 .home-grid{
@@ -213,6 +222,46 @@ h4{
     align-self: center;
 }
 
+.river-entry{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.river-title{
+    width: 100%;
+    grid-column: 1/5;
+    grid-row: 1/2;
+    border: 10px solid #FCE172;
+    box-sizing: border-box;
+}
+.river-msg{
+    z-index: 1;
+    grid-column: 2/4;
+    grid-row: 1/2;
+    color:#FCE172;
+    margin-top: 50px;
+}
+.river-para{
+    grid-column: 2/5;
+    padding: 10px 50px 10px 50px;
+    text-align: left;
+    align-self: center;
+}
+.river-side{
+    grid-column: 1/2;
+    width: 80%;
+    justify-self: center;
+    align-self: center;
+    border: 10px solid #bdb99d;
+    box-sizing: border-box;
+    max-height: 80%;
+}
+hr{
+    width:100%;
+    background-color:#134266;
+    height: 25px;
+    margin-bottom: 25px;
+}
 
 
 @media screen and (max-width: 900px) {
